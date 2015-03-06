@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="imag/icon.png">
+
+    <title>个人简历</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+
+  </head>
+
+  <body role="document">
+    <div class="container holder" role="main">
+    <div class="row">
+      <!-- top -->
+      <header class="col-xs-12">
+        <div class="col-xs-6">
+          <dl>
+            <dd><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>13824420969</dd>
+            <dd><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>skuare520@gmail.com</dd>
+            <dd><span class="glyphicon glyphicon-user" aria-hidden="true"></span>532514900</dd>
+          </dl>
+        </div>
+        <div class="col-xs-6">
+          <h1 class="title">黄嘉敏</h1>
+          <h3>前端工程师/软件工程师</h3>
+        </div>
+      </header>
+      <!-- end top -->
+
+      <!-- left -->
+      <div class="col-xs-6">
+        <!-- education -->
+        <div class="content">
+          <div class="wrapper education">
+            <p>教育经历</p>
+            <p>Education</p>
+          </div>
+          <div class="frame theend">
+            <h4 class="block article-title">2012~2016</h4>
+            <dl>
+              <dt>中山大学</dt>
+              <dd class="education-major">软件工程计算机应用方向（本科）</dd>
+              <dd class="education-honor">2012 - 2013 学年度校<strong>一等奖学金</strong></dd>
+              <dd class="education-honor">2013 - 2014 学年度校二等奖学金</dd>
+            </dl>
+          </div>
+        </div>
+        <!-- end education -->
+
+        <!-- experience -->
+        <div class="content">
+          <div class="wrapper experience">
+            <p>实践活动</p>
+            <p>Experience</p>
+          </div>
+          <div class="frame">
+            <h4 class="block project-title">笃行公益平台 2014.6 - 至今</h4>
+            <dl>
+              <dt>web前端开发</dt>
+              <dd class="project-content">收集并整理公益志愿者线下活动反馈的图片信息、表格信息、日志信息和公益地点旅游信息</dd>
+              <dd class="project-content">参与项目前端开发，基于Bootstrap完成业务需求</dd>
+              <dd class="project-content">使用Ajax完成与后台数据的交互</dd>
+            </dl>
+          </div>
+          <div class="frame theend">
+            <h4 class="block project-title">社团任职</h4>
+            <dl>
+              <dt>中山大学学生软件技术发展中心副主任助理</dt>
+              <dd class="project-content">参与谷歌开发者社区校园开放日中山大学站活动，与谷歌开发者社区活动负责人共同完成活动组织</dd>
+            </dl>
+          </div>
+        </div>
+        <!-- end experience -->
+      </div>
+      <!-- end left -->
+
+      <!-- right -->
+      <div class="col-xs-6">
+        <!-- skill -->
+        <div class="content">
+          <div class="wrapper skill">
+            <p>技能</p>
+            <p>Skill</p>
+          </div>
+          <div class="frame">
+            <h4 class="block front-end">web 前端</h4>
+            <dl>
+              <dt>熟悉HTML/CSS</dt>
+              <dd class="item">能编写语义化的HTML</dd>
+              <dd class="item">能编写模块化的CSS</dd>
+            </dl>
+            <dl>
+              <dt>熟悉JavaScript</dt>
+              <dd class="item">了解原生js和</dd>
+            </dl>
+            <dl>
+              <dt>其他</dt>
+              <dd class="item">熟悉JQuery</dd>
+              <dd class="item">能完成前端组件与Ajax的数据交互</dd>
+              <dd class="item">熟悉Boostrap基本使用</dd>
+            </dl>
+          </div>
+          <div class="frame">
+            <h4 class="block front-end">web 后端</h4>
+            <dl>
+              <dt>了解Flask</dt>
+              <dd class="item">学习Miguel Grinberg的教程，学习搭建一个微博客</dd>
+              <dd class="item">学习在SAE上使用Flask搭建自己的个人主页</dd>
+            </dl>
+          </div>
+          <div class="frame theend">
+            <h4 class="block front-end">其他</h4>
+            <dl>
+              <dd class="item">日常使用 Git， Vim 与 Sublime Text</dd>
+              <dd class="item">学习在SAE上使用Flask搭建自己的个人主页</dd>
+              <dd class="item">曾用python写过自动登录网站的小程序</dd>
+            </dl>
+          </div>
+        </div>
+        <!-- end skill -->
+      </div>
+      <!-- end right -->
+      </div>
+      </div>
+  </body>
+</html>
