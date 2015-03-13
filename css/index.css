@@ -6,11 +6,7 @@ body {
   font-size: 1.1em;
 }
 
-p.detail {
-  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
-  font-size: 17px;
-  text-indent:1em;
-}
+
 
 strong {
   font-weight: bold;
@@ -18,10 +14,12 @@ strong {
 }
 
 .wrap {
-  margin: 60px 0px;
+  margin-top: 35px;
   padding: 25px;
   background: rgba(246, 246, 246, 1);
   border-radius: 20px;
+  height: 385px;
+
 }
 
 .wrap-title {
@@ -30,5 +28,37 @@ strong {
 }
 
 .wrap-btn {
-  float: right;
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+
+  -webkit-transition: -webkit-transform , opacity, background , width , height , font-size ;
+
+  -o-transition-property: width, height, -o-transform, background, font-size, opacity, color;
+  /*-o-transition-duration:1s, 1s, 1s, 1s, 1s, 1s, 1s;*/
+
+  -moz-transition-property: width, height, -moz-transform, background, font-size, opacity, color;
+  /*-moz-transition-duration: 1s, 1s, 1s, 1s, 1s, 1s, 1s;*/
+
+  transition-property: width, height, transform, background, font-size, opacity;
+  /*transition-duration: 1s, 1s, 1s, 1s, 1s, 1s;*/
+
+    -webkit-border-radius: 5px;
+}
+
+.wrap-btn:hover {
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+
+    font-size: 20px;
+    /*color: #fff;*/
+}
+
+.detail {
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  font-size: 17px;
+  text-align: left;
+  text-indent:1em;
 }
