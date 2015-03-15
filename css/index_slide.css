@@ -6,11 +6,13 @@ body {
   font-size: 1.1em;
 }
 
-
-
 strong {
   font-weight: bold;
   color: #008080;
+}
+
+footer {
+  margin-top: 35px;
 }
 
 .wrap {
@@ -18,7 +20,7 @@ strong {
   padding: 25px;
   background: rgba(246, 246, 246, 1);
   border-radius: 20px;
-  height: 385px;
+  /*height: 385px;*/
 
 }
 
@@ -27,10 +29,11 @@ strong {
   margin-bottom: 10px;
 }
 
+.wrap-btn-up,
 .wrap-btn {
   position: absolute;
-  bottom: 20px;
-  right: 25px;
+  margin-bottom: 20px;
+  
 
   -webkit-transition: -webkit-transform , opacity, background , width , height , font-size ;
 
@@ -46,6 +49,15 @@ strong {
     -webkit-border-radius: 5px;
 }
 
+.wrap-btn {
+  right: 25px;
+}
+
+.wrap-btn-up {
+  right: 110px;
+  display: none;
+}
+.wrap-btn-up:hover,
 .wrap-btn:hover {
   -moz-transform: rotate(10deg);
   -webkit-transform: rotate(10deg);
@@ -56,10 +68,12 @@ strong {
     /*color: #fff;*/
 }
 
+
 .detail {
   font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   text-indent:1em;
+  display: none;
 }
 
