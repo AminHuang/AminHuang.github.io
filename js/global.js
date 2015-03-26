@@ -6,7 +6,7 @@ $(document).ready(function(){
 function getInfo(src) {
     $.getJSON(src,function(data){
 
-      console.log(data);
+      
       for (var i = 0; i < data.length; i++) {
         var name = data[i].name;
         var url = data[i].url;
@@ -14,7 +14,8 @@ function getInfo(src) {
 
         var tmpdetails;
         for(var i = 0; i < details.length; i++) {
-          tmpdetails += "<p>" + details[i] + "</p>";
+          console.log(details[i]);
+          tmpdetails += "<p>" + details[i].detail + "</p>";
         }
 
         var html = "<div class=' col-xs-12 col-sm-4 col-md-3 col-lg-3 wrap'>" +
