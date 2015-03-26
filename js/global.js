@@ -12,7 +12,7 @@ function getInfo(src) {
         var url = data[i].url;
         var details = data[i].details;
 
-        var tmpdetails;
+        var tmpdetails = "";
         for(var i = 0; i < details.length; i++) {
           console.log(details[i]);
           tmpdetails += "<p>" + details[i].detail + "</p>";
