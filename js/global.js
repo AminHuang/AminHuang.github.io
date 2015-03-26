@@ -14,7 +14,7 @@ function getInfo(src) {
 
         var tmpdetails;
         for(var i = 0; i < details.length; i++) {
-          tmpdetails += "<p>" + details[i] + "/p";
+          tmpdetails += "<p>" + details[i]. + "</p";
         }
 
         var html = "<div class=' col-xs-12 col-sm-4 col-md-3 col-lg-3 wrap'>" +
