@@ -32,8 +32,6 @@ img,a {
   width: 980px;
   margin: 0 auto;
   position: relative;
-  overflow: auto;
-  zoom: 1;
 }
 
 .nav a,
