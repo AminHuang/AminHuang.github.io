@@ -57,11 +57,11 @@
 }
 
 .col-2 {
-  width: 48%; 
+  width: 240px; 
 }
 
 .col-1 {
-  width: 24%;
+  width: 150px;
 }
 .gallery-tag-content article {
   padding: 10px;
