@@ -33,7 +33,7 @@
 .gallery-tag-content {
   background: white;
   margin: 0 5px 10px 0;
-  padding: 15px;
+  padding: 10px;
   overflow: auto;
   zoom: 1;
 }
@@ -43,6 +43,7 @@
   margin: 0 5px 10px 0;
   padding: 10px;
   width: 650px;
+  border: none;
 }
 
 .gallery-tag-content section {
