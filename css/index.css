@@ -42,20 +42,27 @@
 }
 
 .show-warp {
-  display: flex;
-  display: -webkit-flex;
+  /*display: flex;
+  display: -webkit-flex;*/
+  height: auto;
+  overflow:hidden;
+
 
 }
 
 .show {
-  -webkit-flex:1;
-          flex:1;
+  /*-webkit-flex:1;
+          flex:1;*/
 
-  width: 320px;
+  width: 305px;
   background: white;
   margin: 10px 5px;
   padding: 5px;
   text-align: center;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+  float: left;
+  /*display: inline-block;*/
 }
 
 .show-img {

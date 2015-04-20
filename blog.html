@@ -43,9 +43,7 @@
               <p>就是search那里。我是在input里面使用了背景图片，然后padding-left设置了对应大小。</p>
               <p>3.IE兼容问题</p>
               <p>我在过程中使用了HTML5标签，例如header和footer，测试的时候发现IE8就不兼容。为了兼容，需要手动创建且标签。直接使用html5shiv(和html5shim是一样的东西)。</p>
-              <p>4.两列/三列等高布局</p>
-              <p>我用的FLEX，然而IE9也并不支持。要IE兼容的话，得用那种嵌套好几个div的方式。圣杯布局和双飞翼布局都是不能几列同步高度的。</p>
-              <p>5.待补充</p>
+              <p>4.待补充</p>
             </article>
           </section>
           <section class="blog">
@@ -53,13 +51,27 @@
               <p class="blog-date">4.12</p>
               <p class="blog-tag">css</p>
             </div>
-            <h1 class="blog-title">遇到的困难</h1>
-            <h2 class="blog-subtitile">QAQ</h2>
+            <h1 class="blog-title">三列等高布局</h1>
+            <h2 class="blog-subtitile">padding和margin相抵消</h2>
             <article class="blog-content">
-              <p>正文等待补充.</p>
-              <p>正文等待补充.</p>
-              <p>正文等待补充.</p>
-              <p>正文等待补充.</p>
+              <p>我一开始用的FLEX，然而IE9也并不支持。要IE兼容的话，得用那种嵌套好几个div的方式。圣杯布局和双飞翼布局都是不能几列同步高度的。</p>
+              <p>后来在群上看到别人说的设置很大的padding和margin相互抵消就好了！父元素记得overflow:hidden</p>
+              <p><code>
+                .show-warp {
+                  height: auto;
+                  overflow:hidden;
+                }
+                </code></p>
+              <p><code>
+                .show {
+                  float:left;
+                  width: 305px;
+                  padding-bottom: 10000px;
+                  margin-bottom: -10000px;
+                }
+                </code></p>
+              <p><code>
+                </code></p>
             </article>
           </section>
           <section class="blog">
