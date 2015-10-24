@@ -13,7 +13,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/index_slide.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -24,8 +24,8 @@
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script src="js/index.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index_slide.js"></script>
     <script src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
 
   </head>
@@ -42,8 +42,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="">主页</a></li>
-                <li><a href="./index_slide.html">slide风格</a></li>
-                <li><a href="./index_else.html">风格二</a></li>
+                <li><a href="./index.html">普通风格</a></li>
                 <li><a href="#skill"></a></li>
                 <li><a href="#experience"></a></li>
                 
@@ -64,25 +63,26 @@
       <section id="">
         <div class="container">
           <div class="row">
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 wrap">
+            <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="wrap">
                 <div class="wrap-title"> 
                   <h2><a href="http://whycss.com/" target="_blank">whycss.com</a></h2>
                 </div>
                 <p class="detail">“各位朋友如果细心一点会发现在我博客的底部会有一个前端收藏栏目，里面会放一些我遇到的有价值的前端资源链接，但是随着时间的推移，可能积累的资源越来越多，全部放在底部肯定不现实，于是乎，在这个月初，打算把所有积累的前端资源网址做一个聚合的网站，一来可以方便自己的查阅，二来也是给业界各位前端朋友的一些参考。”摘自whycss网站作者博客。
                 </p>
+                <button class="btn btn-info wrap-btn-up">收起</button>
                 <a href="http://whycss.com/" target="_blank" class="btn btn-info wrap-btn">了解更多</a>
-            </div>
-
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 wrap">
+              </div>
+              <div class="wrap">
                 <div class="wrap-title"> 
                   <h2><a href="http://www.w3cplus.com/" target="_blank">W3CPLUS</a></h2>
                 </div>
                 <p class="detail">W3cplus是一个致力于推广国内前端行业的技术博客。它以探索为己任，不断活跃在行业技术最前沿，努力提供高质量前端技术博文；其文章范围广泛，主要以CSS3、HTML5、Sass、Mobile和各类DEMO为主。
                 </p>
+                <button class="btn btn-info wrap-btn-up">收起</button>
                 <a href="http://www.w3cplus.com/" target="_blank" class="btn btn-info wrap-btn">了解更多</a>
-            </div>
-
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 wrap">
+              </div>
+              <div class="wrap">
                 <div class="wrap-title"> 
                   <h2><a href="http://jekyllrb.com/" target="_blank">Jekyll</a></h2>
                 </div>
@@ -93,11 +93,12 @@
                 用它在github page上搭建静态博客非常方便。
                 访问它的主页<a href="http://jekyllrb.com/" target="_blank">jekyll 主页</a>或者<a href="http://jekyllcn.com/" target="_blank">jekyll 中文网站</a>
                 </p>
+                <button class="btn btn-info wrap-btn-up">收起</button>
                 <a href="http://jekyllrb.com/" target="_blank" class="btn btn-info wrap-btn">了解更多</a>
-              
+              </div>
             </div>
-
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 wrap">
+            <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="wrap">
                 <div class="wrap-title"> 
                   <h2><a href="http://aminhuang.github.io/blog-aminhuang/" target="_blank">个人博客</a></h2>
                 </div>
@@ -107,11 +108,10 @@
                 <p class="detail">
                 样式基本上是直接使用jekyll模板的，只是进行了细微的一些修改。博客内容还不多，之后会慢慢填充的。
                 </p>
+                <button class="btn btn-info wrap-btn-up">收起</button>
                 <a href="http://aminhuang.github.io/blog-aminhuang/" target="_blank" class="btn btn-info wrap-btn">了解更多</a>
-              
-            </div>
-
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 wrap">
+              </div>
+              <div class="wrap">
                 <div class="wrap-title"> 
                   <h2><a href="http://aminhuang.github.io/aboutme/resume" target="_blank">个人简历</a></h2>
                 </div>
@@ -120,13 +120,12 @@
                 <p class="detail">
                 使用了boostrap，目前基本上是静态页面，并没有什么动画效果。
                 </p>
+                <button class="btn btn-info wrap-btn-up">收起</button>
                 <a href="http://aminhuang.github.io/aboutme/resume" target="_blank" class="btn btn-info wrap-btn">了解更多</a>
-              
+              </div>
             </div>
-            
-
-          </div>
         </div>
+            
       </section>
       <!-- end skill -->
     </main>

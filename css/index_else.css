@@ -14,11 +14,12 @@ strong {
 }
 
 .wrap {
+  position: relative;
   margin-top: 35px;
-  padding: 25px;
+  padding: 5px;
   background: rgba(246, 246, 246, 1);
   border-radius: 20px;
-  height: 385px;
+  /*height: 385px;*/
 
 }
 
@@ -29,7 +30,7 @@ strong {
 
 .wrap-btn {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   right: 25px;
 
   -webkit-transition: -webkit-transform , opacity, background , width , height , font-size ;
@@ -56,10 +57,24 @@ strong {
     /*color: #fff;*/
 }
 
+.wrap:hover .detail{
+  display: block;
+
+}
+
 .detail {
+  display: none;
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  padding: 5px 5px 20px 5px;
   font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
   font-size: 17px;
   text-align: left;
   text-indent:1em;
+  background: rgba(172, 163, 216, 1);
+  border-radius: 20px;
+  z-index: 1000;
+
 }
 

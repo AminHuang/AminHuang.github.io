@@ -1,0 +1,318 @@
+body {
+  font-size: 1.6em;
+  /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+header {
+  border-bottom: solid;
+  margin-top: 15px;
+}
+
+strong {
+  font-weight: bold;
+  color: #008080;
+}
+
+dt {
+  font-size: 20px;
+}
+
+.contact {
+  float: left;
+  margin-bottom: 0;
+}
+
+.contact-title {
+  float: right;
+  margin-right: 40px;
+}
+
+.title {
+    font-size: 3.75em;
+    font-family: Arial Black, Gadget, sans-serif;
+    font-weight: bolder;
+}
+
+.img-wechat {
+  width: 130px;
+  height: 130px;
+}
+
+.contact-address {
+  margin-top: 5px;
+}
+
+.contact-address-item {
+  margin-left: 10px;
+}
+.phone::before {
+  font-family: FontAwesome;
+  text-align: center;
+  padding-right: 5px;
+  font-size: 16px;
+  content: "\f095";
+}
+
+.mail::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f0e0";
+}
+
+.github::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f09b";
+}
+
+.blog::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f09e";
+}
+
+.qq::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f1d6";
+}
+
+.content {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.frame {
+  border-left: solid 5px;
+  margin-top: -22px;
+  margin-left: 20px;
+  padding: 25px 25px 5px 25px ;
+}
+
+.theend::after {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #333333;
+  color: #333333;
+  border-radius: 50px;
+  float: left;
+  padding: 0;
+  margin-left: -33px;
+  width: 11px;
+  height: 11px;
+  text-align: center;
+  font-size: 5px;
+  content: "";
+}
+
+.wrapper {
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.education::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #333333;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 28px;
+  content: "\f02d";
+}
+
+.block {
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+  margin-left: -40px;
+  margin-top: -5px;
+  padding: 5px 0;
+}
+
+.article-title::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #20B2AA;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+  content: "\f097";
+}
+
+
+
+.education-major::before{
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f19d";
+}
+
+.education-honor::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f091";
+}
+
+.experience::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #333333;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 28px;
+  content: "\f1e0";
+}
+
+.project-title::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #20B2AA;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+  content: "\f0f2";
+}
+
+.project-content::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f084";
+}
+
+.skill::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #333333;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 28px;
+  content: "\f0ad";
+}
+
+.front-end::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #20B2AA;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 20px;
+  content: "\f013";
+}
+
+.item::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f02b";
+}
+
+.language::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  background-color: #333333;
+  color: white;
+  border-radius: 50px;
+  float: left;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 28px;
+  content: "\f075";
+}
+
+.cet {
+  font-size: 1.25em;
+  float: left;
+  padding-right: 5px;
+}
